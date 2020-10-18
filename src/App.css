@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+.app_body{
+  display: flex;
+  background-color: #ededed;
+  }
