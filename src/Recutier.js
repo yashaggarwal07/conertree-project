@@ -12,9 +12,9 @@ function Recutier() {
             <div className="recutier_form">
             <form>
                 <div className="form_job">
-                    <input type='text' /><span>Name</span>
-                    <input type='email' /><span>Email</span>
-                    <input type='number' /><span>Number</span>
+             <span>Name</span>         <input type='text' /> <br />
+             <span>Email</span>        <input type='email' /> <br />
+             <span>Number</span>       <input type='number'/>  <br />
                    
                     <Autocomplete
       id="recutier"
@@ -35,7 +35,7 @@ function Recutier() {
     <input type="radio"/><span>mid to senior</span><br />
     <input type="radio"/><span>CXO</span><br />
     <input type="radio"/><span>Yes</span>
-    <input type="radio"/><span>No</span>
+    <input type="radio"/><span>No</span><br />
     <button type="submit" onClick={()=>onSubmit()}>Submit</button>
 
                 </div>

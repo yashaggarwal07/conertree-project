@@ -11,10 +11,10 @@ function JobSeker() {
         <div className="jobseeker_form">
             <form>
                 <div className="form_job">
-                    <input type='text' /><span>Name</span>
-                    <input type='email' /><span>Email</span>
-                    <input type='number' /><span>Number</span>
-                    <input type='radio' /><span>Fresher or Experienced</span>
+                 <span>Name</span>              <input type='text' /> <br />
+                 <span>Email</span>             <input type='email'/>  <br />
+                 <span>Number</span>            <input type='number'/>  <br />
+                 <span>Fresher or Experienced   <input type='radio'/> </span>
                     <Autocomplete
       id="Job_seker"
       options={Job_Seker}
@@ -29,7 +29,7 @@ function JobSeker() {
       style={{ width: 300 }}
       renderInput={(params) => <TextField {...params} label="Enter your Search" variant="outlined" />}
     />
-    <input type='file' accept='pdf,docs'/><span>Upload Resume</span>
+    <input type='file' accept='pdf,docs'/><span>Upload Resume</span><br />
     <button type="submit" onClick={()=>onbroadcast()}>BroadCast</button>
 
                 </div>
